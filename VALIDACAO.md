@@ -17,6 +17,6 @@ Data: 26/09/2026. Ambiente: Python 3.12.14, macOS ARM64, ambiente virtual isolad
 
 ## Escopo da validação
 
-Não foi realizada varredura de todas as partidas do catálogo nem teste de carga. A disponibilidade de dados depende do provedor. As versões e o comportamento foram testados no ambiente acima; a publicação no Streamlit Community Cloud requer validação após o deploy.
+Não foi realizada varredura de todas as partidas do catálogo nem teste de carga. A disponibilidade de dados depende do provedor. As versões e o comportamento foram testados no ambiente acima; o deploy final foi concluído no Streamlit Community Cloud.
 
-O Community Cloud apresentou tela de autenticação e aceite de termos. A aplicação **não foi publicada na nuvem** nesta entrega. README e relatório incluem um marcador explícito para a URL final e o roteiro de publicação. GitHub é tratado separadamente do deploy do aplicativo.
+O Community Cloud apresentou inicialmente a etapa de autenticação e aceite de termos; posteriormente, o deploy foi concluído. URL final: https://football-analytics-dashboard-dr1-at-4aghbnevsnk9fraw96gafh.streamlit.app/ O GitHub permanece disponível em https://github.com/pedro-ribeiro00/football-analytics-dashboard-dr1-at.
