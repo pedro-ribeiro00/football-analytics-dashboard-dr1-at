@@ -9,7 +9,7 @@ Dashboard de Sports Analytics em Python/Streamlit para investigar: **como a circ
 ## Links de entrega
 
 - **GitHub:** https://github.com/pedro-ribeiro00/football-analytics-dashboard-dr1-at
-- **Streamlit Community Cloud:** PENDENTE DE PUBLICAÇÃO. Substituir este campo pela URL real após o deploy. Não é um link ativo.
+- **Streamlit Community Cloud:** https://football-analytics-dashboard-dr1-at-4aghbnevsnk9fraw96gafh.streamlit.app/
 - **Relatório:** [Pedro_Henrique_Nunes_Ribeiro_DR1_AT.PDF](docs/Pedro_Henrique_Nunes_Ribeiro_DR1_AT.PDF).
 
 ## Executar localmente
@@ -124,14 +124,17 @@ python scripts/validate_navigation.py
 
 Os testes verificam exclusão da disputa, métricas e denominadores vazios, filtros, coordenadas ausentes e CSV com acentos. Veja `VALIDACAO.md` para os testes de integração realizados com dados reais e Streamlit AppTest.
 
-## Publicar no Streamlit Community Cloud
+## Deploy no Streamlit Community Cloud
 
-1. Publique esta pasta na raiz de um repositório GitHub. Não envie `.venv`, caches ou segredos.
-2. Acesse https://share.streamlit.io/ com sua conta e escolha **Create app**.
-3. Selecione o repositório, a branch `main` e o arquivo `app.py`.
-4. Nas opções avançadas, selecione **Python 3.12**. As dependências estão em `requirements.txt`; não há necessidade de secrets ou `packages.txt`.
-5. Conclua o deploy e teste competição, partida, mapas, comparação e CSV no endereço público.
-6. Substitua o marcador de URL neste README e no relatório. Um servidor local saudável não confirma publicação na nuvem.
+O deploy foi concluído no Streamlit Community Cloud.
+
+- **Aplicação:** https://football-analytics-dashboard-dr1-at-4aghbnevsnk9fraw96gafh.streamlit.app/
+- **Repositório:** https://github.com/pedro-ribeiro00/football-analytics-dashboard-dr1-at
+- **Branch:** `main`
+- **Arquivo principal:** `app.py`
+- **Python:** 3.12
+
+Após alterações no código, o Community Cloud pode reconstruir a aplicação automaticamente a partir da branch `main`. Antes de uma nova entrega, valide competição, partida, mapas, comparação e download CSV no endereço publicado.
 
 Se o download dos dados falhar, confira a conexão ou a disponibilidade do GitHub/StatsBomb e use **Tentar novamente**. O aplicativo mostra o erro sem inventar estatísticas. Atualize versões somente após repetir os testes.
 
